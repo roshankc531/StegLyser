@@ -10,20 +10,32 @@ Key Features:
 Multi-format support: Works with images (PNG, BMP, JPG), audio (WAV, AIFF, AU, FLAC, M4A, OGG, AAC), videos (MP4, MKV, AVI, MOV, etc.), and archive files (ZIP, RAR).
 
 Steganography techniques:
-   -LSB (Least Significant Bit) method for images and audio
-   -Metadata-based embedding for formats like FLAC, M4A, and OGG
-   -File Metadata & Quick Stats Viewer: Displays file information including size, type, resolution, duration, and EXIF data.
-   -Report Generation: Allows saving extracted results and file analysis into a structured report.
-   -Responsive GUI: Dark theme, modern design, and easy navigation.
+
+LSB (Least Significant Bit) method for images and audio
+
+Metadata-based embedding for formats like FLAC, M4A, and OGG
+
+File Metadata & Quick Stats Viewer: Displays file information including size, type, resolution, duration, and EXIF data.
+
+Report Generation: Allows saving extracted results and file analysis into a structured report.
+
+Responsive GUI: Dark theme, modern design, and easy navigation.
 
 Technologies Used:
-   -Python (core language)
-   -Pillow (PIL) – image handling
-   -Stegano – image steganography (LSB)
-   -Pydub & Mutagen – audio processing
-   -OpenCV & FFmpeg – video analysis
-   -CustomTkinter – modern GUI
-   -Zipfile/Rarfile – archive handling
+
+Python (core language)
+
+Pillow (PIL) – image handling
+
+Stegano – image steganography (LSB)
+
+Pydub & Mutagen – audio processing
+
+OpenCV & FFmpeg – video analysis
+
+CustomTkinter – modern GUI
+
+Zipfile/Rarfile – archive handling
 
 Impact:
 
